@@ -152,7 +152,7 @@ function yScale(data, chosenYAxis) {
 //////////////////////////////////////////
 
   // Retrieve data from the CSV file and execute everything below
-d3.csv("https://raw.githubusercontent.com/sskinner99/D3-challenge/main/assets/data/data.csv").then(function(censusData, err) {
+d3.csv("https://raw.githubusercontent.com/sskinner99/D3-challenge/main/assets/data/data.csv?raw=true").then(function(censusData, err) {
     if (err) throw err;
   
     // parse data
